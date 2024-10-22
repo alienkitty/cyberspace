@@ -47,8 +47,9 @@ export class Cyberspace extends Group {
     // Public methods
 
     resize = (width, height) => {
+        // Y flipped
         this.position.x = (width - this.width) / 2;
-        this.position.y = -((height - this.height) / 2 - 65);
+        this.position.y = 1 - (height - this.height) / 2;
     };
 
     update = () => {
