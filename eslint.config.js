@@ -5,6 +5,10 @@ export default [
   js.configs.recommended,
   {
     files: ['**/*.js'],
+    ignores: [
+      'eslint.config.js',
+      'rollup.config.js'
+    ],
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -19,7 +23,7 @@ export default [
       'comma-spacing': ['error', { 'before': false, 'after': true }],
       'curly': ['error', 'multi-line'],
       'eqeqeq': ['error', 'always'],
-      'indent': ['error', 4, { 'SwitchCase': 1 }],
+      'indent': ['error', 4, { 'SwitchCase': 1, 'ignoredNodes': ['TemplateLiteral *'] }],
       'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
       'keyword-spacing': ['error', { 'before': true, 'after': true }],
       'linebreak-style': ['error', 'unix'],
