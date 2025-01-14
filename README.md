@@ -1,1 +1,1 @@
-Copyright 2024 Patrick Schroen - Released under a dual-license, the code itself is released under the [ISC License](LICENSE), and the design is released under the [Creative Commons Attribution Non-Commercial License](LICENSE).
+Copyright 2024-2025 Patrick Schroen - Released under a dual-license, the code itself is released under the [ISC License](LICENSE), and the design is released under the [Creative Commons Attribution Non-Commercial License](LICENSE).
