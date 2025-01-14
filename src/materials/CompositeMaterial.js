@@ -36,7 +36,7 @@ void main() {
     vec2 uv = vUv - flow.rg * 0.05;
 
     float angle = length(vUv - 0.5);
-    float amount = length(flow.rg) * 0.025;
+    float amount = length(flow.rg) * 0.01;
 
     FragColor = getRGB(tScene, uv, angle, amount);
 }
