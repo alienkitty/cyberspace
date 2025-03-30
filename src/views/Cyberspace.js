@@ -41,7 +41,7 @@ export class Cyberspace extends Group {
 
     onClick = () => {
         // open('https://alien.js.org/');
-        location.href = 'mailto:hello@alienkitty.com';
+        location.href = 'mailto:hello@cyberspace.app';
     };
 
     // Public methods
